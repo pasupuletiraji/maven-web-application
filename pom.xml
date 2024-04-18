@@ -100,11 +100,7 @@
 	      <url>http://65.0.45.94:8081/repository/Maven-web-release/</url>
 	    </repository>
 	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Maven-web-snapshot </name>
-	      <url>http://65.0.45.94:8081/repository/Maven-web-snapshot/</url>
-	    </snapshotRepository>
+
 	    
 	</distributionManagement>
 	
