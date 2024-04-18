@@ -95,14 +95,14 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
+	      <id>nexus-release</id>
 	      <name>Maven-web-release Nexus Repository</name>
 	      <url>http://65.0.45.94:8081/repository/Maven-web-release/</url>
 	    </repository>
 
 		
             <snapshotRepository>
-	       <id>nexus</id>
+	       <id>nexus-snapshot</id>
 	       <name>Maven-web-snapshot Nexus Repository</name>
 	       <url>http://65.0.45.94:8081/repository/Maven-web-snapshot/</url>
 	    </snapshotRepository>
