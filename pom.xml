@@ -96,9 +96,16 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Maven-web-release</name>
+	      <name>Maven-web-release Nexus Repository</name>
 	      <url>http://65.0.45.94:8081/repository/Maven-web-release/</url>
 	    </repository>
+
+		
+            <snapshotrepository>
+	       <id>nexus</id>
+	       <name>Maven-web-snapshot Nexus Repository</name>
+	       <url>http://65.0.45.94:8081/repository/Maven-web-snapshot/</url>
+	    </snapshotrepository>
 	    
 
 	    
