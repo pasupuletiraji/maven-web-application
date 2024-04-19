@@ -5,15 +5,15 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0</version>
+	<version>0.0.4-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name> Clahan Technologies</name>
+		<url>http://ClahanTechnologies.com/</url>
 	</organization>
 
 	<properties>
@@ -22,7 +22,8 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://13.201.185.17:9000/</sonar.host.url>
-		<sonar.login>squ_5f1c07473e3f74607129f1ad0cc83d70f6dbcf31</sonar.login> 
+		<sonar.login>admin</sonar.login>
+		<sonar.password>Rajilegend@0506</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -83,33 +84,28 @@
 		
 		<!-- provided dependencies -->
 
-		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
-        <dependency>
-           <groupId>javax.servlet</groupId>
-           <artifactId>javax.servlet-api</artifactId>
-           <version>3.1.0</version>
-           <scope>provided</scope>
-        </dependency>
-
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
 		
 	</dependencies>
 	
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus-release</id>
-	      <name>Maven-web-release Nexus Repository</name>
-	      <url>http://65.0.45.94:8081/repository/Maven-web-release/</url>
+	      <id>nexus</id>
+	      <name>Maven-Web-Application-Release</name>
+	      <url>http://3.7.71.190:8081/repository/Maven-Web-Application-Release/</url>
 	    </repository>
-
-		
-            <snapshotRepository>
-	       <id>nexus-snapshot</id>
-	       <name>Maven-web-snapshot Nexus Repository</name>
-	       <url>http://65.0.45.94:8081/repository/Maven-web-snapshot/</url>
-	    </snapshotRepository>
 	    
-
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Maven-web-snapshot</name>
+	      <url>http://3.7.71.190:8081/repository/Maven-web-snapshot/</url>
+	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
@@ -156,3 +152,4 @@
 	
 	
 </project>
+
