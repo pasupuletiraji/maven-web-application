@@ -9,9 +9,9 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Technologies Private Ltd. Ph No: +91-9980923226, +91-9980923216 ,+91-9900012028,Bengaluru,Karnataka,India</h1>
-<h1 align="center"> Mithun Technologies- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect & Terraform in Bangalore India.Teaching Real Time scnerios</h1>
-<h1 align="center"> We have Python Demo on Apr 19th at 9:30 PM IST </h1>
+<h1 align="center">Lust's passion will be served; it demands, it militates, it tyrannizes</h1>
+<h1 align="center"> Love is not lust. The two (love and lust) are poles apart. Love liberates while lust binds.</h1>
+<h1 align="center"> If they substituted the word 'Lust' for 'Love' in the popular songs it would come nearer the truth. </h1>
 
 <hr>
 <br>
