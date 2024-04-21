@@ -9,9 +9,9 @@
 </head>
 </head>
 <body>
-<h1 align="center">Lust's passion will be served; it demands, it militates, it tyrannizes</h1>
-<h1 align="center"> Love is not lust. The two (love and lust) are poles apart. Love liberates while lust binds.</h1>
-<h1 align="center"> If they substituted the word 'Lust' for 'Love' in the popular songs it would come nearer the truth. </h1>
+<h1 align="center">DevOps is important because it's a software development and operations approach that enables faster development of new products and easier maintenance of existing deployments</h1>
+<h1 align="center"> DevOps is a methodology in the software development and IT industry.</h1>
+<h1 align="center"> Used as a set of practices and tools, DevOps integrates and automates the work of software development. </h1>
 
 <hr>
 <br>
