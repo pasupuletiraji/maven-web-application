@@ -30,7 +30,7 @@ node{
 
 // Send Slack notification code snippet
 
-def notifyBuild(String buildStatus = 'STARTED') {
+def SendSlacknotification(String buildStatus = 'STARTED') {
   // build status of null means successful
   buildStatus =  buildStatus ?: 'SUCCESSFUL'
 
