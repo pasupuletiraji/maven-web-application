@@ -43,7 +43,11 @@ post {
     notifyBuild(currentBuild.result)
   }
 }
- def notifyBuild(String buildStatus = 'STARTED') {
+ 
+
+}//pipeline closing
+
+def notifyBuild(String buildStatus = 'STARTED') {
   // build status of null means successful
   buildStatus =  buildStatus ?: 'SUCCESSFUL'
 
@@ -68,5 +72,3 @@ post {
   // Send notifications
   slackSend (color: colorCode, message: summary, channel:'#testing')
 }
-
-}//pipeline closing
