@@ -6,8 +6,7 @@ maven 'maven3.9.6'
 }
 
 options {
-  timestamps
-  buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '5', numToKeepStr: '4')
+  timestamps()
 }
 
 triggers {
