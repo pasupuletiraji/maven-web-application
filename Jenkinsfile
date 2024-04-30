@@ -22,7 +22,6 @@ node{
     }// tryclosing
     catch (e){
         currentBuild.result = "FAILED"
-        throw e
     }// catch block closing
     finally {
         SendSlacknotification(currentBuild.result)
