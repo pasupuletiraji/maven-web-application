@@ -31,7 +31,6 @@ node{
 
   // Send Slack notifications code snippet
     
-  slackSend (color: colorCode, message: summary)
 }def SendSlacknotification(String buildStatus = 'STARTED') {
   // build status of null means successful
   buildStatus =  buildStatus ?: 'SUCCESSFUL'
