@@ -24,14 +24,14 @@ node{
         currentBuild.result = "FAILED"
     }// catch block closing
     finally {
-        sendSlacknotification(currentBuild.result)
+        notifyBuild(currentBuild.result)
     }
 }// nodeclosing
 
 
   // Send Slack notifications code snippet
     
-}def sendSlacknotification(String buildStatus = 'STARTED') {
+def notifyBuild(String buildStatus = 'STARTED') {
   // build status of null means successful
   buildStatus =  buildStatus ?: 'SUCCESSFUL'
 
@@ -53,6 +53,6 @@ node{
     colorCode = '#FF0000'
   }
 
-  // Send slack notifications code snippet
+  // Send notifications
   slackSend (color: colorCode, message: summary)
 }
