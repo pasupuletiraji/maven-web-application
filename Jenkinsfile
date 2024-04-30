@@ -2,6 +2,7 @@ node{
     def mavenHome = tool name:'maven3.9.6'
     try{
       stage('Checkout'){
+          notifyBuild('STARTED')
         git credentialsId: 'caa72105-3dc0-4d58-88ff-49c5c9fe08c9', url: 'https://github.com/pasupuletiraji/maven-web-application.git'
     }
     stage('Build'){
