@@ -1,7 +1,9 @@
 pipeline{
 
   agent any
-  tool name: 'maven3.9.6', type: 'maven'
+ tools{
+maven 'maven3.9.6'
+
   stages{
     stage('CheckoutCode'){
       steps{
@@ -31,6 +33,7 @@ pipeline{
       }
     }
   }//stages closing
+
   post {
   aborted {
     notifyBuild(currentBuild.result)
@@ -44,6 +47,7 @@ pipeline{
 }
 
 }//pipeline closing
+
 def notifyBuild(String buildStatus = 'STARTED') {
   // build status of null means successful
   buildStatus =  buildStatus ?: 'SUCCESSFUL'
