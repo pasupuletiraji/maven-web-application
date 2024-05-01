@@ -35,9 +35,7 @@ maven 'maven3.9.6'
   }//stages closing
 
   post {
-  aborted {
-    notifyBuild(currentBuild.result)
-  }
+  
   success {
     notifyBuild(currentBuild.result)
   }
