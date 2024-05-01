@@ -10,7 +10,7 @@ options {
 }
 
 triggers {
-  pollSCM '* * * * *'
+  pollSCM ''
 }
 
 stages{
